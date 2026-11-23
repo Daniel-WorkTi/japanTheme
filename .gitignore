@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.vercel
+*.log
+Lunore - Spicy Cubes_files/
+assets/img/badges/_crop-*.png
+assets/img/badges/sgs-seal-*.png
+!assets/img/badges/sgs-seal.png

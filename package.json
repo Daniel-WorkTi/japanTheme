@@ -1,0 +1,22 @@
+{
+  "name": "kenko-lab-spicy-cubes",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  },
+  "description": "",
+  "main": "shopify-checkout.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "pdfjs-dist": "^3.11.174"
+  }
+}
