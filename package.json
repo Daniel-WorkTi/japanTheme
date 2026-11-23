@@ -4,18 +4,17 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node server.mjs",
-    "dev": "node server.mjs"
+    "dev": "node server.mjs",
+    "render-cert": "node scripts/render-cert.mjs"
   },
-  "description": "",
+  "description": "Kenko Lab Spicy Cubes JP landing",
   "main": "shopify-checkout.js",
-  "directories": {
-    "lib": "lib"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
+  "dependencies": {},
+  "optionalDependencies": {
     "canvas": "^3.2.3",
     "pdfjs-dist": "^3.11.174"
   }
