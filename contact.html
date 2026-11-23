@@ -8,6 +8,8 @@
   <link rel="icon" type="image/png" sizes="48x48" href="./assets/img/favicon-48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png">
   <link rel="shortcut icon" href="./favicon.ico">
+  <script src="./assets/js/kenko-tracking-config.js"></script>
+  <script src="./assets/js/kenko-tracking.js" defer></script>
   <meta name="description" content="Kenko Lab Spicy Cubesへのお問い合わせ。ご質問・ご注文についてお気軽にご連絡ください。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -666,6 +668,7 @@
         form.querySelector('input[name="_next"]').value = location.origin + location.pathname + '?sent=1';
         if (/[?&]sent=1/.test(location.search)) document.getElementById('sentMsg').classList.add('on');
         form.addEventListener('submit', function () {
+          try { if (window.KenkoTrack && window.KenkoTrack.lead) window.KenkoTrack.lead(); } catch (e) {}
           var b = document.getElementById('submitBtn');
           b.disabled = true;
           b.textContent = '送信中…';
