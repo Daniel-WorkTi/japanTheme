@@ -44,9 +44,13 @@
     var pack = CFG.packs[packId] || CFG.packs[CFG.defaultPack];
     var base = String(CFG.shop).replace(/\/$/, '');
     var url = base + '/cart/' + pack.variantId + ':' + (pack.qty || 1);
-    var params = [];
+    var params = [
+      'locale=ja',
+      'country=JP',
+      'currency=JPY'
+    ];
     if (pack.sellingPlanId) params.push('selling_plan=' + encodeURIComponent(pack.sellingPlanId));
-    url += params.length ? '?' + params.join('&') : '';
+    url += '?' + params.join('&');
     if (window.KenkoTrack && typeof window.KenkoTrack.appendAttribution === 'function') {
       url = window.KenkoTrack.appendAttribution(url);
     }
