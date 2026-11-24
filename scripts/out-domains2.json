@@ -1,0 +1,61 @@
+{
+  "shop": {
+    "primaryDomain": {
+      "id": "gid://shopify/Domain/191842713974",
+      "host": "www.aunox.store",
+      "url": "https://www.aunox.store"
+    },
+    "domains": [
+      {
+        "id": "gid://shopify/Domain/190226170230",
+        "host": "khkrkf-x7.myshopify.com",
+        "localization": {
+          "defaultLocale": "pt-PT",
+          "alternateLocales": [
+            "ja"
+          ],
+          "country": null
+        }
+      },
+      {
+        "id": "gid://shopify/Domain/190242161014",
+        "host": "checkout.adeusrosa.com",
+        "localization": {
+          "defaultLocale": "pt-PT",
+          "alternateLocales": [],
+          "country": null
+        }
+      },
+      {
+        "id": "gid://shopify/Domain/191842681206",
+        "host": "aunox.store",
+        "localization": null
+      },
+      {
+        "id": "gid://shopify/Domain/191842713974",
+        "host": "www.aunox.store",
+        "localization": {
+          "defaultLocale": "pt-PT",
+          "alternateLocales": [
+            "ja"
+          ],
+          "country": null
+        }
+      }
+    ]
+  },
+  "shopLocales": [
+    {
+      "locale": "ja",
+      "name": "japonês",
+      "primary": false,
+      "published": true
+    },
+    {
+      "locale": "pt-PT",
+      "name": "português (Portugal)",
+      "primary": true,
+      "published": true
+    }
+  ]
+}

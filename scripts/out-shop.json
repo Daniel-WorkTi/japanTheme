@@ -1,0 +1,105 @@
+{
+  "shop": {
+    "name": "Kenko Lab",
+    "myshopifyDomain": "khkrkf-x7.myshopify.com",
+    "primaryDomain": {
+      "url": "https://www.aunox.store",
+      "host": "www.aunox.store"
+    },
+    "currencyCode": "JPY",
+    "enabledPresentmentCurrencies": [
+      "EUR",
+      "JPY"
+    ]
+  },
+  "shopLocales": [
+    {
+      "locale": "en",
+      "name": "inglês",
+      "primary": false,
+      "published": false
+    },
+    {
+      "locale": "es",
+      "name": "espanhol",
+      "primary": false,
+      "published": false
+    },
+    {
+      "locale": "ja",
+      "name": "japonês",
+      "primary": false,
+      "published": false
+    },
+    {
+      "locale": "pt-PT",
+      "name": "português (Portugal)",
+      "primary": true,
+      "published": true
+    }
+  ],
+  "markets": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Market/110156087670",
+        "name": "espanhol",
+        "enabled": true,
+        "handle": "espanhol",
+        "primary": false,
+        "regions": {
+          "nodes": [
+            {
+              "name": "Espanha",
+              "code": "ES"
+            }
+          ]
+        }
+      },
+      {
+        "id": "gid://shopify/Market/111201485174",
+        "name": "Estados Unidos",
+        "enabled": false,
+        "handle": "estados-unidos",
+        "primary": false,
+        "regions": {
+          "nodes": [
+            {
+              "name": "Estados Unidos",
+              "code": "US"
+            }
+          ]
+        }
+      },
+      {
+        "id": "gid://shopify/Market/111768797558",
+        "name": "japan",
+        "enabled": true,
+        "handle": "japan",
+        "primary": false,
+        "regions": {
+          "nodes": [
+            {
+              "name": "Japão",
+              "code": "JP"
+            }
+          ]
+        }
+      },
+      {
+        "id": "gid://shopify/Market/110155694454",
+        "name": "Portugal",
+        "enabled": true,
+        "handle": "pt",
+        "primary": true,
+        "regions": {
+          "nodes": [
+            {
+              "name": "Portugal",
+              "code": "PT"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

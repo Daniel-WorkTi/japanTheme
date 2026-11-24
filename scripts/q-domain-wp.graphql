@@ -1,0 +1,27 @@
+{
+  shop {
+    domains {
+      id
+      host
+      localization {
+        defaultLocale
+        alternateLocales
+      }
+      marketWebPresence {
+        id
+        subfolderSuffix
+        defaultLocale { locale primary }
+        alternateLocales { locale }
+        markets(first: 5) {
+          nodes { id name primary }
+        }
+      }
+    }
+  }
+  webPresenceCreateInput: __type(name: "WebPresenceCreateInput") {
+    inputFields { name type { name kind ofType { name ofType { name } } } }
+  }
+  marketUpdateInput: __type(name: "MarketUpdateInput") {
+    inputFields { name type { name kind ofType { name ofType { name } } } }
+  }
+}

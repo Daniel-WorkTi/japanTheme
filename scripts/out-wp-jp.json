@@ -1,0 +1,32 @@
+{
+  "marketWebPresenceCreate": {
+    "market": {
+      "id": "gid://shopify/Market/111768797558",
+      "name": "japan",
+      "primary": true,
+      "webPresences": {
+        "nodes": [
+          {
+            "id": "gid://shopify/MarketWebPresence/78078509430",
+            "domain": null,
+            "subfolderSuffix": "jp",
+            "defaultLocale": {
+              "locale": "ja",
+              "name": "japonês",
+              "published": true,
+              "primary": false
+            },
+            "alternateLocales": [
+              {
+                "locale": "pt-PT",
+                "name": "português (Portugal)",
+                "published": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "userErrors": []
+  }
+}

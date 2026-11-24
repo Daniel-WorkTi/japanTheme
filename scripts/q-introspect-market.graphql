@@ -1,0 +1,11 @@
+{
+  marketUpdateInput: __type(name: "MarketUpdateInput") {
+    inputFields { name type { name kind ofType { name ofType { name } } } }
+  }
+  market: __type(name: "Market") {
+    fields { name type { name kind ofType { name } } }
+  }
+  shop: __type(name: "Shop") {
+    fields { name }
+  }
+}

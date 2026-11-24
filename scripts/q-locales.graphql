@@ -1,0 +1,31 @@
+{
+  shopLocales {
+    locale
+    name
+    primary
+    published
+  }
+  markets(first: 25) {
+    nodes {
+      id
+      name
+      enabled
+      handle
+      primary
+      regions(first: 10) {
+        nodes {
+          name
+          ... on MarketRegionCountry { code }
+        }
+      }
+      webPresences(first: 5) {
+        nodes {
+          id
+          domain { host url }
+          defaultLocale { locale name published }
+          alternateLocales { locale name published }
+        }
+      }
+    }
+  }
+}

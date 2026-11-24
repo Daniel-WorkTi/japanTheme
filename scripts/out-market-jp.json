@@ -1,0 +1,17 @@
+{
+  "market": {
+    "id": "gid://shopify/Market/111768797558",
+    "name": "japan",
+    "enabled": true,
+    "handle": "japan",
+    "webPresences": {
+      "nodes": []
+    },
+    "currencySettings": {
+      "baseCurrency": {
+        "currencyCode": "JPY"
+      },
+      "localCurrencies": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  shop {
+    name
+    myshopifyDomain
+    primaryDomain { url host }
+    currencyCode
+    enabledPresentmentCurrencies
+  }
+  shopLocales {
+    locale
+    name
+    primary
+    published
+  }
+  markets(first: 25) {
+    nodes {
+      id
+      name
+      enabled
+      handle
+      primary
+      regions(first: 20) {
+        nodes {
+          name
+          ... on MarketRegionCountry { code }
+        }
+      }
+    }
+  }
+}

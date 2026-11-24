@@ -1,0 +1,11 @@
+{
+  webPresenceUpdatePayload: __type(name: "WebPresenceUpdatePayload") {
+    fields { name type { name kind ofType { name } } }
+  }
+  webPresenceUpdateInput: __type(name: "WebPresenceUpdateInput") {
+    inputFields { name type { name kind ofType { name ofType { name } } } }
+  }
+  webPresenceDeletePayload: __type(name: "WebPresenceDeletePayload") {
+    fields { name type { name kind ofType { name } } }
+  }
+}

@@ -1,0 +1,6 @@
+mutation {
+  marketWebPresenceDelete(webPresenceId: "gid://shopify/MarketWebPresence/76891947382") {
+    deletedId
+    userErrors { field message code }
+  }
+}

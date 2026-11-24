@@ -1,0 +1,17 @@
+{
+  payload: __type(name: "MarketWebPresenceCreatePayload") {
+    fields { name type { name kind ofType { name } } }
+  }
+  input: __type(name: "MarketWebPresenceCreateInput") {
+    inputFields { name type { name kind ofType { name ofType { name } } } }
+  }
+  shopLocaleInput: __type(name: "ShopLocaleInput") {
+    inputFields { name type { name kind ofType { name } } }
+  }
+  mut: __type(name: "Mutation") {
+    fields(includeDeprecated: true) {
+      name
+      args { name type { name kind ofType { name ofType { name } } } }
+    }
+  }
+}

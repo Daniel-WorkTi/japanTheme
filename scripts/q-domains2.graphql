@@ -1,0 +1,20 @@
+{
+  shop {
+    primaryDomain { id host url }
+    domains {
+      id
+      host
+      localization {
+        defaultLocale
+        alternateLocales
+        country
+      }
+    }
+  }
+  shopLocales {
+    locale
+    name
+    primary
+    published
+  }
+}

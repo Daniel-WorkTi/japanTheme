@@ -1,0 +1,271 @@
+{
+  "shop": {
+    "domains": [
+      {
+        "id": "gid://shopify/Domain/190226170230",
+        "host": "khkrkf-x7.myshopify.com",
+        "localization": {
+          "defaultLocale": "pt-PT",
+          "alternateLocales": [
+            "ja"
+          ]
+        },
+        "marketWebPresence": {
+          "id": "gid://shopify/MarketWebPresence/76891554166",
+          "subfolderSuffix": null,
+          "defaultLocale": {
+            "locale": "pt-PT",
+            "primary": true
+          },
+          "alternateLocales": [
+            {
+              "locale": "ja"
+            }
+          ],
+          "markets": {
+            "nodes": []
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Domain/190242161014",
+        "host": "checkout.adeusrosa.com",
+        "localization": {
+          "defaultLocale": "pt-PT",
+          "alternateLocales": []
+        },
+        "marketWebPresence": {
+          "id": "gid://shopify/MarketWebPresence/76899647862",
+          "subfolderSuffix": null,
+          "defaultLocale": {
+            "locale": "pt-PT",
+            "primary": true
+          },
+          "alternateLocales": [],
+          "markets": {
+            "nodes": []
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Domain/191842681206",
+        "host": "aunox.store",
+        "localization": null,
+        "marketWebPresence": {
+          "id": "gid://shopify/MarketWebPresence/77713506678",
+          "subfolderSuffix": null,
+          "defaultLocale": {
+            "locale": "pt-PT",
+            "primary": true
+          },
+          "alternateLocales": [
+            {
+              "locale": "ja"
+            }
+          ],
+          "markets": {
+            "nodes": []
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Domain/191842713974",
+        "host": "www.aunox.store",
+        "localization": {
+          "defaultLocale": "pt-PT",
+          "alternateLocales": [
+            "ja"
+          ]
+        },
+        "marketWebPresence": {
+          "id": "gid://shopify/MarketWebPresence/77713506678",
+          "subfolderSuffix": null,
+          "defaultLocale": {
+            "locale": "pt-PT",
+            "primary": true
+          },
+          "alternateLocales": [
+            {
+              "locale": "ja"
+            }
+          ],
+          "markets": {
+            "nodes": []
+          }
+        }
+      }
+    ]
+  },
+  "webPresenceCreateInput": {
+    "inputFields": [
+      {
+        "name": "domainId",
+        "type": {
+          "name": "ID",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "defaultLocale",
+        "type": {
+          "name": null,
+          "kind": "NON_NULL",
+          "ofType": {
+            "name": "String",
+            "ofType": null
+          }
+        }
+      },
+      {
+        "name": "alternateLocales",
+        "type": {
+          "name": null,
+          "kind": "LIST",
+          "ofType": {
+            "name": null,
+            "ofType": {
+              "name": "String"
+            }
+          }
+        }
+      },
+      {
+        "name": "subfolderSuffix",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      }
+    ]
+  },
+  "marketUpdateInput": {
+    "inputFields": [
+      {
+        "name": "name",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "handle",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "conditions",
+        "type": {
+          "name": "MarketConditionsUpdateInput",
+          "kind": "INPUT_OBJECT",
+          "ofType": null
+        }
+      },
+      {
+        "name": "catalogsToAdd",
+        "type": {
+          "name": null,
+          "kind": "LIST",
+          "ofType": {
+            "name": null,
+            "ofType": {
+              "name": "ID"
+            }
+          }
+        }
+      },
+      {
+        "name": "catalogsToDelete",
+        "type": {
+          "name": null,
+          "kind": "LIST",
+          "ofType": {
+            "name": null,
+            "ofType": {
+              "name": "ID"
+            }
+          }
+        }
+      },
+      {
+        "name": "webPresencesToAdd",
+        "type": {
+          "name": null,
+          "kind": "LIST",
+          "ofType": {
+            "name": null,
+            "ofType": {
+              "name": "ID"
+            }
+          }
+        }
+      },
+      {
+        "name": "webPresencesToDelete",
+        "type": {
+          "name": null,
+          "kind": "LIST",
+          "ofType": {
+            "name": null,
+            "ofType": {
+              "name": "ID"
+            }
+          }
+        }
+      },
+      {
+        "name": "makeDuplicateUniqueMarketsDraft",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "status",
+        "type": {
+          "name": "MarketStatus",
+          "kind": "ENUM",
+          "ofType": null
+        }
+      },
+      {
+        "name": "currencySettings",
+        "type": {
+          "name": "MarketCurrencySettingsUpdateInput",
+          "kind": "INPUT_OBJECT",
+          "ofType": null
+        }
+      },
+      {
+        "name": "removeCurrencySettings",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "removePriceInclusions",
+        "type": {
+          "name": "Boolean",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "priceInclusions",
+        "type": {
+          "name": "MarketPriceInclusionsInput",
+          "kind": "INPUT_OBJECT",
+          "ofType": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  market(id: "gid://shopify/Market/111768797558") {
+    id
+    name
+    enabled
+    handle
+    webPresences(first: 5) {
+      nodes {
+        id
+        domain { host url }
+        rootUrls { locale url }
+        defaultLocale { locale name published }
+        alternateLocales { locale name published }
+      }
+    }
+    currencySettings {
+      baseCurrency { currencyCode }
+      localCurrencies
+    }
+  }
+}

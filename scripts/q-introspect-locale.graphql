@@ -1,0 +1,13 @@
+{
+  wpUpdatePayload: __type(name: "MarketWebPresenceUpdatePayload") {
+    fields { name type { name kind ofType { name } } }
+  }
+  mutFields: __type(name: "Mutation") {
+    fields {
+      name
+    }
+  }
+  domainType: __type(name: "Domain") {
+    fields { name type { name kind ofType { name } } }
+  }
+}

@@ -1,0 +1,26 @@
+mutation {
+  marketWebPresenceCreate(
+    marketId: "gid://shopify/Market/111768797558"
+    webPresence: {
+      defaultLocale: "ja"
+      alternateLocales: ["pt-PT"]
+      subfolderSuffix: "jp"
+    }
+  ) {
+    market {
+      id
+      name
+      primary
+      webPresences(first: 5) {
+        nodes {
+          id
+          domain { id host }
+          subfolderSuffix
+          defaultLocale { locale name published primary }
+          alternateLocales { locale name published }
+        }
+      }
+    }
+    userErrors { field message code }
+  }
+}

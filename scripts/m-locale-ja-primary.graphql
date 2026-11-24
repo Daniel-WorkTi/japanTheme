@@ -1,0 +1,11 @@
+mutation {
+  shopLocaleUpdate(locale: "ja", shopLocale: { published: true }) {
+    shopLocale {
+      locale
+      name
+      primary
+      published
+    }
+    userErrors { field message }
+  }
+}

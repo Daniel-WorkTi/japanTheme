@@ -1,0 +1,93 @@
+{
+  "shop": {
+    "primaryDomain": {
+      "id": "gid://shopify/Domain/191842713974",
+      "host": "www.aunox.store",
+      "url": "https://www.aunox.store"
+    },
+    "myshopifyDomain": "khkrkf-x7.myshopify.com",
+    "domains": [
+      {
+        "id": "gid://shopify/Domain/190226170230",
+        "host": "khkrkf-x7.myshopify.com",
+        "url": "https://khkrkf-x7.myshopify.com",
+        "localization": {
+          "defaultLocale": "pt-PT",
+          "alternateLocales": [
+            "ja"
+          ],
+          "country": null
+        }
+      },
+      {
+        "id": "gid://shopify/Domain/190242161014",
+        "host": "checkout.adeusrosa.com",
+        "url": "https://checkout.adeusrosa.com",
+        "localization": {
+          "defaultLocale": "pt-PT",
+          "alternateLocales": [],
+          "country": null
+        }
+      },
+      {
+        "id": "gid://shopify/Domain/191842681206",
+        "host": "aunox.store",
+        "url": "https://aunox.store",
+        "localization": null
+      },
+      {
+        "id": "gid://shopify/Domain/191842713974",
+        "host": "www.aunox.store",
+        "url": "https://www.aunox.store",
+        "localization": {
+          "defaultLocale": "pt-PT",
+          "alternateLocales": [
+            "ja"
+          ],
+          "country": null
+        }
+      }
+    ]
+  },
+  "marketWebPresenceUpdateInput": {
+    "inputFields": [
+      {
+        "name": "domainId",
+        "type": {
+          "name": "ID",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "defaultLocale",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      },
+      {
+        "name": "alternateLocales",
+        "type": {
+          "name": null,
+          "kind": "LIST",
+          "ofType": {
+            "name": null,
+            "ofType": {
+              "name": "String"
+            }
+          }
+        }
+      },
+      {
+        "name": "subfolderSuffix",
+        "type": {
+          "name": "String",
+          "kind": "SCALAR",
+          "ofType": null
+        }
+      }
+    ]
+  }
+}

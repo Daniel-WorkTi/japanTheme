@@ -1,0 +1,19 @@
+{
+  shop {
+    primaryDomain { id host url }
+    myshopifyDomain
+    domains {
+      id
+      host
+      url
+      localization {
+        defaultLocale
+        alternateLocales
+        country
+      }
+    }
+  }
+  marketWebPresenceUpdateInput: __type(name: "MarketWebPresenceUpdateInput") {
+    inputFields { name type { name kind ofType { name ofType { name } } } }
+  }
+}

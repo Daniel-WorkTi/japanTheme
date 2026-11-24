@@ -1,0 +1,14 @@
+{
+  "marketWebPresenceUpdate": {
+    "market": null,
+    "userErrors": [
+      {
+        "field": [
+          "webPresenceId"
+        ],
+        "message": "O mercado não existe",
+        "code": "MARKET_NOT_FOUND"
+      }
+    ]
+  }
+}

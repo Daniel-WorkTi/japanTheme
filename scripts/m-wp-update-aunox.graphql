@@ -1,0 +1,15 @@
+mutation {
+  marketWebPresenceUpdate(
+    webPresenceId: "gid://shopify/MarketWebPresence/77713506678"
+    webPresence: {
+      defaultLocale: "ja"
+      alternateLocales: ["pt-PT"]
+    }
+  ) {
+    market {
+      id
+      name
+    }
+    userErrors { field message code }
+  }
+}
