@@ -7119,6 +7119,72 @@ letter-spacing: var(--ls,normal)!important;
   html body .shop-thumbnails.shop-thumbnails .shop-thumbnail.shop-thumbnail:not(.active) { opacity: .78 !important; }
   html body .shop-thumbnails.shop-thumbnails .shop-thumbnail.shop-thumbnail.active { opacity: 1 !important; box-shadow: 0 0 0 2px var(--lp-wine); border-color: transparent !important; }
 
+  /* CORREÇÃO DA BARRA DE REVIEWS NO MOBILE */
+@media (max-width: 480px) {
+
+  .shop-product-info .trustpilot-rating-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+  }
+
+  .shop-product-info .trustpilot-rating-container
+  .rating-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 5px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .shop-product-info .trustpilot-rating-container
+  .trustpilot-block-rating-text {
+    white-space: normal !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    text-align: center !important;
+    min-width: 0 !important;
+  }
+
+  .shop-product-info .trustpilot-rating-container
+  .tp-avatars {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 6px 0 0 !important;
+  }
+}
+
+
+/* KENKO LAB - Avatares maiores no mobile */
+@media (max-width: 480px) {
+
+  .shop-product-info .trustpilot-rating-container .tp-avatars {
+    display: flex !important;
+    align-items: center !important;
+    flex-shrink: 0 !important;
+    margin-left: 6px !important;
+  }
+
+  .shop-product-info .trustpilot-rating-container .tp-avatars img {
+    width: 28px !important;
+    height: 28px !important;
+    min-width: 28px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    margin-left: -8px !important;
+  }
+
+  .shop-product-info .trustpilot-rating-container .tp-avatars img:first-child {
+    margin-left: 0 !important;
+  }
+}
   
 </style>
 
